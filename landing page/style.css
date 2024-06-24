@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #b7692e;
+    background-color: rgb(230, 241, 184);
+}
+
+.navbar{
+    display: flex;
+    height: 90px;
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topCenter{
+    width: 50%;
+}
+
+
+.section1{
+   height: 50vh; 
+}
+
+.section1 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.section1{
+    background-image: url("bg.jpg");
+background-size: cover;
+text-align: justify-between;
+padding: 140px 0;
+color: #a51818;
+}
+
+ss.section1 p{
+    font-size: 48px;
+    margin-bottom: 30px;   
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+ .footer p{
+    margin: 0;
+    padding: 0;
+    
+ }
